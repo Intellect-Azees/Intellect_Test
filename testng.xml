@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test e-PACS" parallel="tests" thread-count="2">
+
+    <parameter name="browser" value="chrome"/>
+   
+    <test name="TestGroup1">
+        <classes>
+            <class name="Membership.EnrollMember"/>
+        </classes>
+    </test>
+    
+    <!-- Uncomment and adjust if needed
+    <test name="TestGroup2">
+        <classes>
+            <class name="com.example.ThirdTestClass"/>
+        </classes>
+        <groups>
+            <run>
+                <exclude name="group2"/>
+            </run>
+        </groups>
+    </test>
+    -->
+
+</suite>
