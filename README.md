@@ -1,2 +1,0 @@
-# Intellect_Test
- 
